@@ -1,0 +1,24 @@
+#redes-sociais{
+    width: 20vw;
+}
+
+#redes-sociais a{
+    text-decoration: none;
+    display: block;
+    background-color: var(--grey-700);
+    margin-bottom: 1.1rem;
+    padding: 0.75vw;
+    font-size: var(--paragraph);
+    color: var(--white);
+    font-weight: 600;
+    text-align: center;
+    border-radius: 13px;
+}
+
+#redes-sociais a:hover{
+    background-color: var(--green);
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s;
+}
