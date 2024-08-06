@@ -1,24 +1,28 @@
-#redes-sociais{
-    width: 20vw;
+#redes-sociais {
+  width: clamp(15rem, 20vw, 20vw);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.7rem, 1rem, 1.3rem);
+  margin-bottom: 0.9rem;
 }
 
-#redes-sociais a{
-    text-decoration: none;
-    display: block;
-    background-color: var(--grey-700);
-    margin-bottom: 1.1rem;
-    padding: 0.75vw;
-    font-size: var(--paragraph);
-    color: var(--white);
-    font-weight: 600;
-    text-align: center;
-    border-radius: 13px;
+#redes-sociais a {
+  text-decoration: none;
+  display: block;
+  background-color: var(--grey-700);
+  /* margin-bottom: 1.1rem; */
+  padding: clamp(0.6rem, 0.9rem, 1.2vw);
+  font-size: var(--paragraph);
+  color: var(--white);
+  font-weight: 600;
+  text-align: center;
+  border-radius: 13px;
 }
 
-#redes-sociais a:hover{
-    background-color: var(--green);
-    color: black;
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.5s;
+#redes-sociais a:hover {
+  background-color: var(--green);
+  color: black;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s;
 }

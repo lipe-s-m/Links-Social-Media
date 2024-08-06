@@ -1,5 +1,5 @@
 img {
-  max-width: 8vw;
+  max-width: clamp(7rem ,8vw, 10vw);
   height: auto;
   border-radius: 50%;
   margin-bottom: 1rem;
@@ -13,7 +13,7 @@ img {
 }
 
 #sobre-mim h1 {
-  font-size: 1.5vw;
+  font-size: clamp(1.5rem ,1.5vw, 2rem);
   margin-bottom: 1rem;
   font-weight: 800;
 }
